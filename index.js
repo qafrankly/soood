@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import dateCalc from 'date_calc';
 
 class RandomTest extends Component {
   static PropTypes = {
@@ -7,7 +8,7 @@ class RandomTest extends Component {
   }
   render(){
     let {
-      h2 = 'simple repo created by heba - testing :)',
+      h2 = 'testing repo - WEB-1531 created by heba - testing :)',
     } = this.props;
 
     let {
