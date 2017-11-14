@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import dateCalc from 'date_calc';
+import MyApp  from 'date_calc';
 
 class RandomTest extends Component {
   static PropTypes = {
